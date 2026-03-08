@@ -1,0 +1,69 @@
+{
+  "capture_metadata": {
+    "tweet_id": "2023750362184724759",
+    "source": "syndication",
+    "captured_at_utc": "2026-03-08T12:59:26.927307Z",
+    "confidence": "high",
+    "confidence_reasons": []
+  },
+  "key_claims": [
+    "This paper unlocks every algorithm used by hedge funds.",
+    "151 trading strategies.",
+    "Get it here (361 page PDF): https://t.co/H7CTcQjlXw"
+  ],
+  "what_is_verifiable_vs_assumption": {
+    "verifiable": [
+      "151 trading strategies.",
+      "Get it here (361 page PDF): https://t.co/H7CTcQjlXw"
+    ],
+    "assumptions_or_interpretations": [
+      "This paper unlocks every algorithm used by hedge funds."
+    ]
+  },
+  "evidence_audit": {
+    "verdict": "red",
+    "summary": "All detected links stay inside X/Twitter media or tweet pages; no external source document is exposed. The tweet contains claim-like text but does not expose a direct external source for verification.",
+    "checks": [
+      {
+        "name": "direct_access",
+        "status": "fail",
+        "evidence": "All detected links stay inside X/Twitter media or tweet pages; no external source document is exposed."
+      },
+      {
+        "name": "transparency",
+        "status": "fail",
+        "evidence": "Resolved links point only to tweet media or internal pages instead of a named external source."
+      },
+      {
+        "name": "verifiability",
+        "status": "fail",
+        "evidence": "The tweet contains claim-like text but does not expose a direct external source for verification."
+      },
+      {
+        "name": "intent_signal",
+        "status": "warn",
+        "evidence": "CTA language detected (get it here), which often indicates promotion or funnel behavior rather than transparent sourcing."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://t.co/H7CTcQjlXw",
+        "expanded_url": "https://x.com/quantscience_/status/2023750362184724759/photo/1",
+        "display_url": "pic.x.com/H7CTcQjlXw",
+        "resolved_url": "https://pbs.twimg.com/media/HBXOOn7bAAAgFN4.png",
+        "content_type": "image/*",
+        "kind": "media",
+        "resolution_error": null
+      }
+    ]
+  },
+  "suggested_checks": [
+    "Open the original tweet URL and verify the extracted text matches exactly.",
+    "Confirm the captured handle matches the profile shown on the tweet.",
+    "Confirm the timestamp and timezone as shown in the original tweet.",
+    "If this is part of a thread, verify that replies/continuations were not missed.",
+    "Open linked URLs from the tweet and verify referenced claims.",
+    "Review resolved link targets and confirm they match what the tweet promises.",
+    "Treat media-only links as unverified until you locate a direct external source."
+  ]
+}

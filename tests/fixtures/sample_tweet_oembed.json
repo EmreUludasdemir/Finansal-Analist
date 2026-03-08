@@ -1,0 +1,6 @@
+{
+  "url": "https://x.com/janedoe/status/1234567890123456789",
+  "author_name": "Jane Doe",
+  "author_url": "https://twitter.com/janedoe",
+  "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">1/ Launching feature X today.<br>2/ We reduced latency by 35%.<br>3/ Docs coming next week.</p>&mdash; Jane Doe (@janedoe) <a href=\"https://twitter.com/janedoe/status/1234567890123456789?ref_src=twsrc%5Etfw\">January 1, 2026</a></blockquote>"
+}

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tweet-evidence-audit"
+version = "0.2.0"
+description = "CLI for capturing public tweet metadata and producing evidence-based audit reports."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Emre" }
+]
+dependencies = [
+  "requests==2.32.3",
+  "beautifulsoup4==4.12.3"
+]
+keywords = ["twitter", "x", "osint", "cli", "audit", "research"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.scripts]
+tweet-evidence-audit = "tweet_reader.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tweet_reader*"]

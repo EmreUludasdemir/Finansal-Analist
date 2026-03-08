@@ -1,0 +1,33 @@
+{
+  "__typename": "Tweet",
+  "lang": "en",
+  "created_at": "2026-02-17T13:24:20.000Z",
+  "id_str": "2023750362184724759",
+  "text": "This paper unlocks every algorithm used by hedge funds.\n\n151 trading strategies.\n\nGet it here (361 page PDF): https://t.co/H7CTcQjlXw",
+  "user": {
+    "name": "Quant Science",
+    "screen_name": "quantscience_"
+  },
+  "entities": {
+    "hashtags": [],
+    "urls": [],
+    "user_mentions": [],
+    "symbols": [],
+    "media": [
+      {
+        "display_url": "pic.x.com/H7CTcQjlXw",
+        "expanded_url": "https://x.com/quantscience_/status/2023750362184724759/photo/1",
+        "url": "https://t.co/H7CTcQjlXw"
+      }
+    ]
+  },
+  "mediaDetails": [
+    {
+      "url": "https://t.co/H7CTcQjlXw",
+      "expanded_url": "https://x.com/quantscience_/status/2023750362184724759/photo/1",
+      "media_url_https": "https://pbs.twimg.com/media/HBXOOn7bAAAgFN4.png",
+      "type": "photo"
+    }
+  ],
+  "isEdited": false
+}
