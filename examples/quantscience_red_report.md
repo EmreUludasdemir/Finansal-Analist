@@ -15,7 +15,7 @@ Quant Science (@quantscience_)
 ## Capture Metadata
 - Tweet ID: 2023750362184724759
 - Source: syndication
-- Captured At (UTC): 2026-03-08T12:59:26.927307Z
+- Captured At (UTC): 2026-03-08T00:00:00Z
 
 ## Extracted Text
 ```text
@@ -39,3 +39,4 @@ All detected links stay inside X/Twitter media or tweet pages; no external sourc
 
 ### Link Evidence
 - source=https://t.co/H7CTcQjlXw | expanded=https://x.com/quantscience_/status/2023750362184724759/photo/1 | resolved=https://pbs.twimg.com/media/HBXOOn7bAAAgFN4.png | kind=media | content_type=image/*
+
