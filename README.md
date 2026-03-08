@@ -2,6 +2,8 @@
 
 `tweet_reader` captures publicly retrievable tweet content from X/Twitter and turns it into a small evidence audit package.
 
+![Terminal demo](assets/terminal-demo.svg)
+
 The tool is built for due diligence style work:
 
 - fetches public tweet metadata without authentication when possible
@@ -18,6 +20,7 @@ The repo now includes:
 - GitHub Actions test workflow
 - checked-in example reports
 - ready-to-use GitHub and LinkedIn share copy
+- reproducible example refresh script
 
 ## Why this is worth sharing on GitHub
 
@@ -75,6 +78,12 @@ python -m tweet_reader "https://x.com/<handle>/status/<id>"
 ```
 
 Accepted URLs are public `x.com` or `twitter.com` status links.
+
+Refresh the checked-in example package:
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/refresh_examples.ps1
+```
 
 ## Retrieval strategy
 
@@ -155,11 +164,15 @@ See checked-in sample outputs:
 python -m unittest discover -s tests -p "test_*.py"
 ```
 
-## Suggested GitHub polish
+## Contributing
 
-If you plan to publish this repo, the remaining high-value upgrades are:
+See `CONTRIBUTING.md` for local workflow and constraints.
 
-1. add a screenshot or terminal GIF to the README
-2. add one or two more real-world example cases
-3. expand fixtures for threads and multi-link posts
-4. add optional CSV or SQLite export if you want batch analysis later
+## Next upgrades
+
+High-value next steps if you want to keep growing this repo:
+
+1. add one or two more real-world example cases
+2. support batch auditing from a CSV input list
+3. add optional SQLite export for audit history
+4. add richer thread-level extraction and multi-link scoring

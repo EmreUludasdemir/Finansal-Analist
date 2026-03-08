@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Tweet Evidence Audit terminal demo</title>
+  <desc id="desc">A stylized terminal screenshot showing a red verdict for a tweet that links only to internal media.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#0b1020"/>
+  <rect x="52" y="46" width="1096" height="628" rx="20" fill="url(#bg)" stroke="#27324a" stroke-width="2"/>
+  <circle cx="92" cy="84" r="8" fill="#ef4444"/>
+  <circle cx="120" cy="84" r="8" fill="#f59e0b"/>
+  <circle cx="148" cy="84" r="8" fill="#22c55e"/>
+  <text x="182" y="90" fill="#94a3b8" font-family="'Cascadia Code', Consolas, monospace" font-size="22">tweet-evidence-audit</text>
+  <text x="88" y="142" fill="#38bdf8" font-family="'Cascadia Code', Consolas, monospace" font-size="24">$ python -m tweet_reader "https://x.com/quantscience_/status/2023750362184724759?s=20"</text>
+  <text x="88" y="196" fill="#e5e7eb" font-family="'Cascadia Code', Consolas, monospace" font-size="23">Saved markdown: output\tweet.md</text>
+  <text x="88" y="232" fill="#e5e7eb" font-family="'Cascadia Code', Consolas, monospace" font-size="23">Saved summary: output\summary.json</text>
+  <text x="88" y="268" fill="#e5e7eb" font-family="'Cascadia Code', Consolas, monospace" font-size="23">Saved raw capture: data\tweet_raw.json</text>
+  <rect x="88" y="318" width="170" height="44" rx="12" fill="#7f1d1d"/>
+  <text x="122" y="347" fill="#fecaca" font-family="'Cascadia Code', Consolas, monospace" font-size="24">VERDICT: RED</text>
+  <text x="88" y="408" fill="#f8fafc" font-family="'Cascadia Code', Consolas, monospace" font-size="25">Direct access [FAIL]</text>
+  <text x="88" y="444" fill="#cbd5e1" font-family="'Cascadia Code', Consolas, monospace" font-size="22">All detected links stay inside X/Twitter media pages.</text>
+  <text x="88" y="500" fill="#f8fafc" font-family="'Cascadia Code', Consolas, monospace" font-size="25">Link evidence</text>
+  <text x="88" y="536" fill="#cbd5e1" font-family="'Cascadia Code', Consolas, monospace" font-size="22">source=https://t.co/H7CTcQjlXw</text>
+  <text x="88" y="572" fill="#cbd5e1" font-family="'Cascadia Code', Consolas, monospace" font-size="22">expanded=https://x.com/.../photo/1</text>
+  <text x="88" y="608" fill="#cbd5e1" font-family="'Cascadia Code', Consolas, monospace" font-size="22">resolved=https://pbs.twimg.com/media/HBXOOn7bAAAgFN4.png</text>
+</svg>
