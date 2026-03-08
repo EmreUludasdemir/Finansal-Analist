@@ -1,5 +1,9 @@
 # Tweet Evidence Audit CLI
 
+[![Tests](https://github.com/EmreUludasdemir/Finansal-Analist/actions/workflows/tests.yml/badge.svg)](https://github.com/EmreUludasdemir/Finansal-Analist/actions/workflows/tests.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 `tweet_reader` captures publicly retrievable tweet content from X/Twitter and turns it into a small evidence audit package.
 
 ![Terminal demo](assets/terminal-demo.svg)
@@ -33,6 +37,18 @@ This is stronger than a one-off notebook or screenshot dump because it shows:
 - tests and deterministic fixtures
 
 If you want a portfolio repo that signals OSINT, due diligence, or research engineering ability, this is a reasonable format.
+
+## Quick start
+
+```bash
+pip install -r requirements.txt
+python -m tweet_reader "https://x.com/<handle>/status/<id>"
+```
+
+Open:
+
+- `output/tweet.md`
+- `output/summary.json`
 
 ## Project layout
 
